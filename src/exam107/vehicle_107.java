@@ -9,6 +9,11 @@ public class vehicle_107 {
 		this.speed=0;
 	}
 	
+	int decrease_speed(int decr) {
+		this.speed= speed-decr;
+		return speed;
+	}
+	
 	public static void main(String[] args) {
 		
 	}
